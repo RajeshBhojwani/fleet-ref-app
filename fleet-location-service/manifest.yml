@@ -1,0 +1,11 @@
+applications:
+- name: fleet-location-service
+  memory: 1024M
+  instance: 1
+  host: fleet-location-service
+  path: target/fleet-location-service-1.0.0.BUILD-SNAPSHOT.jar
+  services:
+    - mysql
+#    - zipkin
+    - configserver
+    - eureka

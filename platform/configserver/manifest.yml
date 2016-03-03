@@ -1,0 +1,7 @@
+applications:
+- name: fleet-config-server
+  memory: 512M
+  instance: 1
+  host: fleet-config-server
+  path: target/fleet-config-server-1.0.0.BUILD-SNAPSHOT.jar
+  

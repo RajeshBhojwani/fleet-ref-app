@@ -1,0 +1,12 @@
+applications:
+- name: fleet-location-updater
+  memory: 1024M
+  instance: 1
+  host: fleet-location-updater
+  path: target/fleet-location-updater-1.0.0.BUILD-SNAPSHOT.jar
+
+  services:
+    - rabbitmq
+#    - zipkin
+    - configserver
+    - eureka

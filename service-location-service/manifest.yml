@@ -1,0 +1,11 @@
+applications:
+- name: service-location-service
+  memory: 1024M
+  instance: 1
+  host: service-location-service
+  path: target/service-location-service-1.0.0.BUILD-SNAPSHOT.jar
+  services:
+    - mongodb
+#    - zipkin
+    - configserver
+    - eureka

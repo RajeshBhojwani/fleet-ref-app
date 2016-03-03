@@ -1,0 +1,9 @@
+applications:
+- name: fleet-eureka-server
+  memory: 512M
+  instance: 1
+  host: fleet-eureka-server
+  path: target/fleet-eureka-server-1.0.0.BUILD-SNAPSHOT.jar
+  services:
+    - configserver
+    

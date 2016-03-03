@@ -1,0 +1,12 @@
+applications:
+- name: fleet-location-ingest
+  memory: 1024M
+  instance: 1
+  host: fleet-location-ingest
+  path: target/fleet-location-ingest-1.0.0.BUILD-SNAPSHOT.jar
+
+  services:
+    - rabbitmq
+#    - zipkin
+    - configserver
+    - eureka

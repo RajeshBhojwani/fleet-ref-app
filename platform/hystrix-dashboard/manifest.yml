@@ -1,0 +1,6 @@
+applications:
+- name: fleet-hystrix-dashboard
+  memory: 512M
+  instance: 1
+  host: fleet-hystrix-dashboard
+  path: target/fleet-hystrix-dashboard-1.0.0.BUILD-SNAPSHOT.jar
