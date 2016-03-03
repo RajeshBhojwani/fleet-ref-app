@@ -1,6 +1,6 @@
 Vehicle Fleet
 =============
-New version
+New version 1.0
 Demo system for RentMe fleet of connected rental trucks. Each truck in
 our fleet sends us telemetry data updates, including location, heading
 and various internal indicators, including whether of not a service is
